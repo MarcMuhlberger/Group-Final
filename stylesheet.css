@@ -1,0 +1,22 @@
+#navimg {
+background-image:url(https://images.unsplash.com/photo-1592652426549-6b44dce89711?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8&w=1000&q=80);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: gray;
+opacity: 1;
+height: 700px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: .7;
+    font-size:30px;
+    width:100%;
+    z-index: 1;
+}
