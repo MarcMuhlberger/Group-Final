@@ -10,6 +10,18 @@ height: 700px;
     display: flex;
     flex-direction: row;
 }   
+.body
+{
+background:black;
+color: white;
+border-color:rgb(85, 201, 255) ;
+
+}
+a:link {
+color:
+}
+a:hover {
+    color: rgb(85, 201, 255)
 .index-nav {
     display:flex;
     flex-direction: row;
