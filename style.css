@@ -85,7 +85,7 @@ align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
-    height: 300px;
+    height: 20vw;
 }
 .rc-top {
     display: flex;
@@ -97,15 +97,15 @@ align-items: center;
     text-shadow: 1px 5px 5px black;
 }
 #saved {
-    font-size: 30px;
-    padding: 30px;
+    font-size: 2.5vw;
+    padding: 2vw;
     font-weight: bold;
 }
 .rc-info {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 1.5vw;
 }
 .btn-primary {
     color: white;
@@ -117,7 +117,15 @@ align-items: center;
     border-color: rgb(85, 201, 255);
 }
 .col {
-    padding: 10px;
+    padding: 1vw;
+}
+.rc-p {
+    font-size: 1.3vw;
+    padding: .5vw;
+}
+.rc-h1 {
+    font-weight: bold;
+    font-size: 2vw;
 }
             /**  GENERAL PAGE LAYOUT CSS   **/
 body
@@ -135,4 +143,7 @@ a:hover {
 }
 a {
     color: rgb(85, 201, 255);
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
 }
