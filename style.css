@@ -18,8 +18,13 @@ align-items: center;
     text-align: center;
 }
 #title2 {
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-shadow: 2px 5px 5px black;
+    text-align: center;
+}
+#title3 {
+    font-weight: bold;
+    font-size: 3vw;
     text-align: center;
 }
 #index-p {
@@ -126,6 +131,43 @@ align-items: center;
 .rc-h1 {
     font-weight: bold;
     font-size: 2vw;
+}
+            /** INDOORS.HTML CSS **/
+.education-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color: rgb(46, 119, 153) ; 
+    padding: 4vw;
+}
+.indoor-row {
+    display: flex;
+    flex-direction: row;
+}
+.indoor-t {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.indoor-info {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+#indoor-navimg {
+    background-image:url(images/indoors.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+.clip-img {
+    height: 20vw;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
             /**  GENERAL PAGE LAYOUT CSS   **/
 body
