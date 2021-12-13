@@ -112,18 +112,6 @@ align-items: center;
     justify-content: space-evenly;
     padding: 1.5vw;
 }
-.btn-primary {
-    color: white;
-    background-color: gray
-}
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-    color: white;
-    background-color: rgb(85, 201, 255);
-    border-color: rgb(85, 201, 255);
-}
-.col {
-    padding: 1vw;
-}
 .rc-p {
     font-size: 1.3vw;
     padding: .5vw;
@@ -169,6 +157,86 @@ align-items: center;
     height: 20vw;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
+            /** MEDICAL.HTML CSS **/
+#medical-navimg {
+    background-image:url(images/medical.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+#fiv-img {
+    background-image:url(images/fiv2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+#litter-img {
+    background-image:url(https://www.villageveterinaryclinic.com/sites/default/files/cat-litter-box-issues.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+#cat-doc {
+    background-image: url(https://www.stvitalveterinaryhospital.com/wp-content/uploads/sites/76/2019/01/cat_vaccinations2-1800x550.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+#pee{
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+#med-p {
+    font-size: 1.3vw;
+    padding: .5vw;
+    text-align: left;
+    margin-left: 13vw;
+}
+#virus {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+#fiv {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+            /** BOOTSTRAP MODIFICATIONS **/
+.col {
+    padding: 1vw;
+}
+.btn-primary {
+    border-color:rgba(46, 119, 153, 0.123) ;
+    color: rgba(255, 255, 255, 0.856);
+    background-color:rgba(46, 119, 153, 0.377) ;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: white;
+    background-color: rgb(85, 201, 255);
+    border-color: rgb(85, 201, 255);
+}
+.accordion {
+    margin: 4vw;
+}
+.accordion-button {
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(46, 119, 153) ;
+    height: 4vw;
+}
+.accordion-body {
+    background-color: rgba(16,24,26,255);
+    height: 15vw;
+    font-size: 1.5vw;
+}
+.carousel-indicators {
+}
             /**  GENERAL PAGE LAYOUT CSS   **/
 body
 {
@@ -188,4 +256,83 @@ a {
 }
 .navbar-dark .navbar-nav .nav-link{
     color: white;
+}
+
+/** contact page css **/
+
+.contact-header{
+  text-align: center;
+  font-size: 1.1vw;
+  text-decoration: underline;
+}
+
+.scrc-link{
+  text-align: center;
+  font-size: .9vw;
+}
+
+.rocky-mt-link{
+  text-align: center;
+  font-size: .9vw;
+}
+
+.so-calif-sr-link{
+  text-align: center;
+  font-size: .9vw;
+}
+
+.siamese-rescue-other-link{
+  text-align: center;
+  font-size: .9vw;
+}
+
+.contact-left-center{
+  background-image: url("images/siamese-cat-2.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-color: cyan;
+  width: 20vw;
+  border-width: thin;
+}
+
+.contact-center-center{
+  width: 58vw;
+  text-align: center;
+  border-style: solid;
+  border-color: cyan;
+  border-width: thin;
+}
+
+.contact-right-center{
+  background-image: url("images/siamese-cat.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-color: cyan;
+  width: 20vw;
+  border-width: thin;
+}
+
+.contact-center{
+  height: 30vw;
+}
+
+.flex{
+  display: flex;
+}
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.left{
+  float: left;
+}
+
+.right {
+  float: right;
 }
