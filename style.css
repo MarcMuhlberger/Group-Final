@@ -207,6 +207,13 @@ align-items: center;
     background-color: gray;
     height: 30vw;
 }
+#integrating {
+    background-image: url(https://i.ytimg.com/vi/emZqJiiKZJU/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 45vw;
+}
 #pee{
     font-weight: bold;
     font-size: 3vw;
