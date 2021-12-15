@@ -186,6 +186,27 @@ align-items: center;
     background-color: gray;
     height: 30vw;
 }
+#sick-cat {
+    background-image: url(https://drjustinelee.com/wp-content/uploads/2015/08/yay-1072412-digital.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 50vw;
+}
+#joys {
+    background-image: url(https://kittentoob.com/wp-content/uploads/2018/04/Snowshoe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 35vw;
+}
+#kitten {
+    background-image: url(https://siameseofday.com/wp-content/uploads/2019/11/How-to-Care-for-Siamese-Kittens-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
 #pee{
     font-weight: bold;
     font-size: 3vw;
